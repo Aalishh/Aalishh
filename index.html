@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PUBG Mobile - Официальный сайт</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img
+                        src="https://www.pubgmobile.com/images/event/brandAssets/pubgm_horizontal_white.png"
+                        alt="PUBG Mobile Logo"
+                    />
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#features">Об игре</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#tournaments">Турниры</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>PUBG MOBILE</h1>
+                    <h2>Королевская битва</h2>
+                    <p>
+                        Присоединяйтесь к миллионам игроков со всего мира в
+                        битве за выживание.
+                    </p>
+                    <div class="hero-buttons">
+                        <a
+                            href="https://www.pubgmobile.com/ru/download.shtml"
+                            class="btn btn-primary"
+                            >Скачать игру</a
+                        >
+                        <a href="#features" class="btn btn-secondary"
+                            >Узнать больше</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Особенности игры</h2>
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <img
+                            src="https://www.pubgmobile.com/en-US/home/images/s3_icon_1.png"
+                            alt="Карты и локации"
+                        />
+                        <h3>Карты и локации</h3>
+                        <p>
+                            6 уникальных карт включая новую карту Rondo,
+                            представленную в 2025 году, с разнообразными
+                            ландшафтами и точками интереса.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <img
+                            src="https://www.pubgmobile.com/en-US/home/images/s3_icon_2.png"
+                            alt="Режимы игры"
+                        />
+                        <h3>Режимы игры</h3>
+                        <p>
+                            Классическая королевская битва, командные режимы,
+                            аркады и многое другое для разнообразного игрового
+                            опыта.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <img
+                            src="https://www.pubgmobile.com/en-US/home/images/s3_icon_3.png"
+                            alt="Транспорт"
+                        />
+                        <h3>Транспорт</h3>
+                        <p>
+                            Разнообразные транспортные средства включая
+                            эксклюзивные автомобили Bugatti, доступные в игре с
+                            2025 года.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <img
+                            src="https://www.pubgmobile.com/en-US/home/images/s3_icon_4.png"
+                            alt="Оружие"
+                        />
+                        <h3>Оружие</h3>
+                        <p>
+                            Более 50 видов оружия с реалистичной механикой
+                            стрельбы, настраиваемыми прицелами и аксессуарами.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Stats Section -->
+        <section class="game-stats">
+            <div class="container">
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <h3>1 миллиард+</h3>
+                        <p>Скачиваний по всему миру</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>30 миллионов+</h3>
+                        <p>Активных игроков ежедневно</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>6</h3>
+                        <p>Уникальных карт</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>$100 миллионов+</h3>
+                        <p>Призовой фонд на турнирах</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="news">
+            <div class="container">
+                <h2 class="section-title">Последние новости</h2>
+                <div class="news-container" id="news-container">
+                    <!-- News cards will be loaded from JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Tournaments Section -->
+        <section id="tournaments" class="tournaments">
+            <div class="container">
+                <h2 class="section-title">Предстоящие турниры</h2>
+                <div class="tournament-container" id="tournament-container">
+                    <!-- Tournament cards will be loaded from JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Связаться с нами</h2>
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Имя</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Контактная информация</h3>
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            support@pubgmobile.com
+                        </p>
+                        <p><i class="fas fa-globe"></i> www.pubgmobile.com</p>
+                        <div class="social-links">
+                            <a
+                                href="https://facebook.com/PUBGMOBILE"
+                                target="_blank"
+                                ><i class="fab fa-facebook"></i
+                            ></a>
+                            <a
+                                href="https://twitter.com/PUBGMOBILE"
+                                target="_blank"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a
+                                href="https://instagram.com/pubgmobile"
+                                target="_blank"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a
+                                href="https://youtube.com/pubgmobile"
+                                target="_blank"
+                                ><i class="fab fa-youtube"></i
+                            ></a>
+                            <a href="https://discord.gg/pubgm" target="_blank"
+                                ><i class="fab fa-discord"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img
+                            src="https://www.pubgmobile.com/images/event/brandAssets/pubgm_horizontal_white.png"
+                            alt="PUBG Mobile Logo"
+                        />
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Игра</h4>
+                            <ul>
+                                <li><a href="#">Скачать</a></li>
+                                <li><a href="#">Особенности</a></li>
+                                <li><a href="#">Обновления</a></li>
+                                <li><a href="#">Поддержка</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Киберспорт</h4>
+                            <ul>
+                                <li><a href="#">Турниры</a></li>
+                                <li><a href="#">Команды</a></li>
+                                <li><a href="#">Призы</a></li>
+                                <li><a href="#">Расписание</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Компания</h4>
+                            <ul>
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Карьера</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 PUBG Corporation. Все права защищены.</p>
+                    <div class="legal-links">
+                        <a href="#">Условия использования</a>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/data.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
